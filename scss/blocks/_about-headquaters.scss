@@ -1,0 +1,140 @@
+
+.headquaters {
+    margin-bottom: 50px;
+    padding: 0 20px;   
+}
+.headquaters__inner {
+    background-image: url("../img/choice-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#0A775F;
+    background-blend-mode: overlay;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.headquaters__title{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 80px;
+    
+}
+
+
+.headquaters__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.headquaters__item {
+    width: 433px;
+    padding: 140px 0 40px 20px;
+    background-color: #F8F8F2;
+    position: relative;
+}
+
+.headquaters__item--second{
+    margin: 0 20px;
+}
+
+.headquaters__item::after{
+    width: 120px;
+    height: 143px;
+    position: absolute;
+    top: 41px;
+    left: 256px;
+    z-index: 2;
+    background-image: url("../img/map-first.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.headquaters__item--second::after{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 41px;
+    left: 256px;
+    z-index: 2;
+    background-image: url("../img/map-second.svg");
+    background-repeat: no-repeat;
+    content: "";
+
+}
+
+
+.headquaters__item--third::after{
+    width: 120px;
+    height: 107px;
+    position: absolute;
+    top: 41px;
+    left: 256px;
+    z-index: 2;
+    background-image: url("../img/map-third.svg");
+    background-repeat: no-repeat;
+    content: "";
+
+}
+
+.headquaters__cover{
+    width: 141px;
+}
+
+.headquaters__cover--second{
+    width: 178px;
+}
+
+.headquaters__cover--third{
+    width: 159px;
+}
+
+.headquaters__wrapper {
+    width: 231px;
+}
+.headquaters__text {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+
+.headquares__address { 
+    font-style: normal; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333333;
+    
+}
+.headquaters__tel {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333333;
+    text-decoration: none;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .headquaters__inner {
+        background-image: url("../../img/choice-back@2x.png")
+    }
+   
+} 

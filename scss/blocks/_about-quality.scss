@@ -1,0 +1,64 @@
+
+.quality {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    position: relative;
+    
+}
+.quality__inner {
+    padding-top:100px ;
+    padding-left: 143px;
+    padding-bottom: 118px;
+    background-image: url("../img/choice-back.png");
+    background-size: contain;
+    background-color: #C99B67;
+    background-blend-mode: overlay;
+    
+    
+}
+
+.quality__wrapper {
+    width: 639px;
+}
+
+
+.quality__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    
+}
+.quality__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    color: #FFFFFF;
+    margin: 0;
+    opacity: 0.8;
+}
+.quality__img {
+    width:550px ;
+    height:500px ;
+    position: absolute;
+    top: -82px;
+    left: calc(50% + 100px);
+    
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .quality__inner {
+        background-image: url("../../img/choice-back@2x.png");
+    }
+} 

@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Document</title>
 </head>
 <body>
     
-    <header class="header">
+    <about-header class="about-header">
         
         <div class="container">
             
-            <div class="header__inner">
+            <div class="about-header__inner">
                 
-                <a class="header__logo" href="./index.html">
-                    <img class="header__img" src="./img/coffee-logo.svg" alt="coffee-logotip">
+                <a class="about-header__logo" href="./index.html">
+                    <img class="about-header__img" src="./img/coffee-logo.svg" alt="coffee-logotip">
                 </a>
                 
-                <nav class="header__menu">
+                <nav class="about-header__menu">
                     
-                    <ol class="header__list">
+                    <ol class="about-header__list">
                         
-                        <li class="header__item"><a class="header__link" href="./index.html">HOME</a></li>
-                        <li class="header__item"><a class="header__link" href="./about.html">ABOUT US</a></li>
-                        <li class="header__item"><a class="header__link" href="#">CREATE YOUR PLAN</a></li>
+                        <li class="about-header__item"><a class="about-header__link" href="./index.html">HOME</a></li>
+                        <li class="about-header__item"><a class="about-header__link" href="./about.html">ABOUT US</a></li>
+                        <li class="about-header__item"><a class="about-header__link" href="#">CREATE YOUR PLAN</a></li>
                         
                     </ol>
                     
@@ -36,23 +36,23 @@
             
         </div>
         
-    </header>
+    </about-header>
     
     
     <main>
         
-        <section class="hero">
+        <section class="about-hero">
             
             <div class="container">
                 
-                <div class="hero__inner">
+                <div class="about-hero__inner">
                     
                     
-                    <h1 class="hero__title">
+                    <h1 class="about-hero__title">
                         About Us
                     </h1>
                     
-                    <p class="hero__text">
+                    <p class="about-hero__text">
                         Coffeeroasters began its journey of exotic discovery in 1999,
                         highlighting stories of coffee from around the world.
                         We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.
@@ -73,7 +73,9 @@
                     
                     <div class="commitment__wrapper">
                         
-                        <img class="commitment__img" src="./img/green-cup.png" alt="">
+                        <img class="commitment__img" src="./img/green-cup.png" 
+                        srcset="./img/green-cup.png 1x, ./img/green-cup@2x.png 2x"
+                        alt="a cup of milk on the surface painted leaf" width="360px" height="364px">
                         
                         <div class="commitment__cover">
                             
@@ -129,7 +131,8 @@
                         
                     </div>
                     
-                    <img class="quality__img" src="./img/woman.png" alt="Two women are drinking coffee">
+                    <img class="quality__img" src="./img/woman.png" srcset="./img/woman.png 1x, ./img/woman@2x.png 2x"
+                    alt="Two women are drinking coffee" width="550" height="500">
                     
                 </div>
                 

@@ -1,0 +1,121 @@
+
+.choice {
+    padding: 0 20px 0 20px;
+    margin-bottom: 289px;
+    position: relative;
+}
+.choice__inner {
+    height: 703px;
+    background-image: url("../img/choice-back.png");
+    background-size: contain;
+    background-color: #C99B67;
+    background-blend-mode: overlay;
+    padding-top: 50px; 
+}
+
+.choice__wrapper {
+    width: 548px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    
+    
+}
+.choice__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px; 
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.choice__text {   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+    opacity: 80%
+}
+
+
+.choice__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -189px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+
+.choice__item:nth-child(2){
+    
+    margin: 0 20px;
+}
+
+
+.choice__list::before{
+    position: absolute;
+    top: -50px;
+    right: calc(50% + 581px);
+    z-index: 3;
+    width: 140px;
+    height: 144px;
+    background-image: url("../img/choice.svg");
+    background-repeat: no-repeat;
+    background-size: 140px 144px;
+    content: "";  
+}
+
+
+
+.choice__img{
+    width:433px ;
+    height:500px ;
+    margin-bottom:28px ;
+}
+
+
+.choice__pack {
+    width: 377px;
+}
+.choice__quality {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333333;
+}
+.choice__benefit {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+    color: #333333;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .choice__inner {
+        background-image: url("../../img/choice-back@2x.png");
+    }
+    
+} 
