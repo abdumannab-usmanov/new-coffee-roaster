@@ -79,6 +79,6 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
 
     .hero{
-        background-image: url("../../img/two-cups@2x.png")
+        background-image: url("../../img/two-cups@2x.png") ,url("../img/back-img@2x.png");
     }
 } 
