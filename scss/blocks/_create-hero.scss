@@ -1,0 +1,65 @@
+
+.create-hero{
+    margin-bottom: 20px;
+    padding:116px 0 261px 0;
+    background-image: url("../img/create-coffee.png"), url("../img/back-img.png") ;
+    background-repeat: no-repeat;
+    background-size: contain , 100%;
+    background-position: calc(50% + 409px) calc(50% - 1px), center center;
+    background-color: #f3d7b7;
+    background-blend-mode: normal, overlay;
+    position: relative;
+}
+
+.create-hero::before{
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 10px);
+    z-index: 10;
+    display: block;
+    width: 160px;
+    height: 160px;
+    background-image: url("../img/deer-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    
+}
+
+.create-hero__inner{
+    width: 472px;
+    padding-left: 100px;
+    
+}
+
+
+
+.create-hero__title{
+    font-weight: 700;
+    font-size: 64px ;
+    line-height:75px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.create-hero__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    
+    .create-hero{
+        background-image: url("../img/create-coffee@2x.png"), url("../img/back-img@2x.png") ;
+    }
+    
+} 
