@@ -159,6 +159,7 @@
 
 
 .choose__wrapper {
+    display: block;
     width: 100%;
     max-width: 206px;
     padding: 30px 17px 56px 16px;
@@ -187,6 +188,7 @@
 
 
 .choose__title {
+    display: block;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -197,6 +199,7 @@
 }
 
 .choose__text {
+    display: block;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
